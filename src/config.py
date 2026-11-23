@@ -65,7 +65,7 @@ FRONTIER_ILLUSTRATIVE_POINTS = 100  # illustrative 100-point MV/CVaR frontier (n
 FRONTIER_CANDIDATES_PAPER = 20  # requested frontier candidates for tangent selection
 
 # ---------------------------------------------------------------------------
-# Optimization tolerances (paper Section 3, implementation notes)
+# Optimization tolerances (paper Section 3)
 # ---------------------------------------------------------------------------
 MV_TOLERANCE = 1e-9  # mean-variance optimality / constraint tolerance
 CVAR_MAX_ITER = 2000  # CVaR LP maximum iterations

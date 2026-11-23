@@ -50,7 +50,7 @@ def fit_marginal(returns: np.ndarray) -> MarginalFit:
     is fit with `statsmodels.tsa.arima.model.ARIMA(order=(1,0,1))`, and the
     GARCH(1,1)-t volatility equation sigma_hat^2 = omega + alpha*epsilon_t^2 +
     beta*sigma_t^2 is then fit on the ARMA residuals with a zero-mean
-    `arch_model` (paper Section 2, implementation notes).
+    `arch_model` (paper Section 2).
     """
     scaled = pd.Series(returns * 100.0)
     arma = ARIMA(scaled, order=(1, 0, 1), trend="c").fit()
