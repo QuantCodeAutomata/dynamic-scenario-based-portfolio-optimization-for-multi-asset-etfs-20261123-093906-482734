@@ -85,7 +85,7 @@ RACHEV_STAR_TAIL_P = 0.05  # tail probability used in Rachev 95/95 and STAR 95 (
 # Moving-window risk diagnostics (paper Section 4)
 # ---------------------------------------------------------------------------
 RISK_WINDOW_PAPER = 252  # overlapping moving-window length for variance/VaR/CVaR, paper Section 4
-RISK_WINDOW_RUN = 40  # reduced window matching N_EVAL_RUN=80 (gives 41 overlapping windows)
+RISK_WINDOW_RUN = 59  # reduced window, same 252/946 ratio as the paper, matching N_EVAL_RUN=220
 RISK_WINDOW_VAR_CVAR_P = 0.05  # 95% loss VaR/CVaR threshold
 
 # ---------------------------------------------------------------------------
@@ -118,7 +118,7 @@ TAIL_BOOTSTRAP_B_PAPER = 400  # stationary-bootstrap resamples for the OLS tail-
 # the objective set, and every formula are unchanged, and the full
 # configuration remains selectable with each experiment's --full flag.
 N_EVAL_PAPER = 946  # paper out-of-sample sessions, Section 2
-N_EVAL_RUN = 80  # executed out-of-sample sessions for Experiments 1-4
+N_EVAL_RUN = 220  # executed out-of-sample sessions for Experiments 1-4
 
 S_RUN = 300  # executed scenario draws per decision date
 FRONTIER_CANDIDATES_RUN = 10  # executed frontier candidates for tangent selection

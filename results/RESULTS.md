@@ -42,7 +42,7 @@ risk-free proxy and converted to an effective daily rate under the paper's
   the six objectives, the long-only/limited-long-short bounds, and every
   optimization formula are unchanged. The executed values and their `--full`
   command are, for each experiment:
-  - Experiments 1-4 (shared baseline backtest): `N_EVAL_RUN=80` vs.
+  - Experiments 1-4 (shared baseline backtest): `N_EVAL_RUN=220` vs.
     `N_EVAL_PAPER=946` out-of-sample sessions; `S_RUN=300` vs.
     `S_PAPER=10,000` scenarios; `FRONTIER_CANDIDATES_RUN=10` vs.
     `FRONTIER_CANDIDATES_PAPER=20`; Experiment 3 bootstrap `B_RUN=500` vs.
@@ -59,14 +59,15 @@ risk-free proxy and converted to an effective daily rate under the paper's
     length is method-defining and was not reduced. Run with
     `python -m exp.exp6 --full`.
   - The moving-window risk-diagnostics window (Experiment 1) was reduced
-    from `RISK_WINDOW_PAPER=252` to `RISK_WINDOW_RUN=40` sessions so it still
-    fits inside the 80 executed out-of-sample sessions.
-  - Consequence for comparability: with only 18-80 out-of-sample sessions
+    from `RISK_WINDOW_PAPER=252` to `RISK_WINDOW_RUN=59` sessions, keeping
+    the paper's 252/946 window-to-sample ratio so it still fits inside the
+    220 executed out-of-sample sessions.
+  - Consequence for comparability: with only 18-220 out-of-sample sessions
     instead of 946, every annualized or tail statistic below has much larger
     sampling variance than the paper's, and the Experiment 4 tail fits in
-    particular use 4-8 upper-tail observations instead of the paper's 47-95.
-    This is the main identified cause of the large deviations recorded under
-    each experiment's verdicts.
+    particular use 11-22 upper-tail observations instead of the paper's
+    47-95. This is the main identified cause of the large deviations
+    recorded under each experiment's verdicts.
 - **Risk-free data source.** The paper does not state its Treasury-yield
   provider; this replication used the FRED `DGS3MO` series (the standard
   public source for the U.S. three-month Treasury par yield), aligned to
@@ -120,9 +121,9 @@ risk-free proxy and converted to an effective daily rate under the paper's
 Source: `results/exp1_reward_risk_ratios.csv`, `exp1_summary.csv`,
 `exp1_descriptive_moments.csv`, `exp1_gross_net_performance.csv`,
 `exp1_kde_grid.png`, `exp1_moving_window_mc95.png`, `results/_log_exp1.txt`.
-Executed configuration: `N_EVAL_RUN=80` out-of-sample sessions
+Executed configuration: `N_EVAL_RUN=220` out-of-sample sessions
 (2018-12-19…2026-09-30 panel, W=1,008), S_RUN=300 scenarios,
-FRONTIER_CANDIDATES_RUN=10, moving-window diagnostics over 40 sessions.
+FRONTIER_CANDIDATES_RUN=10, moving-window diagnostics over 59 sessions.
 
 **Reward-risk ratio comparison (48 matched historical-vs-conditional cells,
 `exp1_summary.csv`):** historical ratio higher in 16 of 48 comparisons
@@ -131,10 +132,10 @@ FRONTIER_CANDIDATES_RUN=10, moving-window diagnostics over 40 sessions.
 | Metric (paper comparison) | Paper (Section 4) | This run | Verdict |
 |---|---|---|---|
 | Share of comparisons where historical ratio is higher | "most" (qualitative; reported paired-Δ in Exp. 3 mostly negative) | 0.333 (16/48) | partially reproduced |
-| BHP Sharpe (daily) | not individually tabulated in paper_pipeline | -0.0176 | not reproduced (no paper value to compare) |
+| BHP Sharpe (daily) | not individually tabulated in paper_pipeline | 0.0507 | not reproduced (no paper value to compare) |
 
 The paper's qualitative claim is that historical portfolios have higher
-*observed* reward-risk ratios "in most comparisons". With only 80 executed
+*observed* reward-risk ratios "in most comparisons". With 220 executed
 out-of-sample sessions, historical is higher in a minority (16/48) of cells
 here, the opposite direction from the paper's qualitative finding. This is a
 material, not fully identified difference: a slice test (see Experiment 3,
@@ -144,25 +145,26 @@ indistinguishable from zero for nearly every one of the 48 comparisons at
 every bootstrap block length (0 Holm/BH rejections), consistent with the
 paper's own conclusion that "no paired difference remained significant after
 multiple-testing adjustment" — the directional qualitative result is fragile
-under the executed 80-session sample, while the paper's non-significance
+under the executed 220-session sample, while the paper's non-significance
 conclusion is reproduced. Verdict: **partially reproduced** (non-significance
 of differences reproduced; direction-of-majority not reproduced, attributed
 to the much shorter executed out-of-sample window above).
 
 **Descriptive moments (`exp1_descriptive_moments.csv`), units 1e-4 for mean
 and std, 1e-2 for skewness:** historical and conditional LO-MV means are
-0.915e-4 and 0.859e-4 per session, standard deviations 40.21e-4 and
-40.09e-4, skewness 15.94e-2 and 15.76e-2, excess kurtosis -0.059 for both.
-Means and standard deviations are close between methods, as the paper
-reports; the skewness and kurtosis values are far from the paper's reported
-range because the 80-session executed sample is too short for high-order
-moments to stabilize. Verdict: **partially reproduced** (closeness of mean
-and std across methods holds; skewness/kurtosis magnitudes not reproduced,
-identified cause: sample-size instability of higher moments at N=80).
+3.85e-4 and 3.82e-4 per session, standard deviations 47.70e-4 and 47.40e-4,
+skewness -23.34e-2 and -22.61e-2, excess kurtosis 0.914 and 0.893. Means and
+standard deviations are close between methods, as the paper reports; the
+skewness and kurtosis values differ in magnitude from the paper's reported
+range because the 220-session executed sample is still much shorter than the
+paper's 946 sessions, so higher-order moments have not fully stabilized.
+Verdict: **partially reproduced** (closeness of mean and std across methods
+holds; skewness/kurtosis magnitudes not reproduced, identified cause:
+sample-size instability of higher moments at N=220).
 
 **Gross/net annualized performance (`exp1_gross_net_performance.csv`):**
-historical LO-MV gross/net annualized returns are +2.13%/+2.08%; conditional
-LO-MV +1.98%/+1.94%; gross and net values differ by only 0.02-0.04
+historical LO-MV gross/net annualized returns are +9.86%/+9.82%; conditional
+LO-MV +9.80%/+9.75%; gross and net values differ by only 0.03-0.05
 percentage points under the 10 bps cost assumption for every portfolio,
 confirming the paper's expectation that "gross and net returns should be
 close under 10 bps linear cost assumption." Verdict: **reproduced** (gross
@@ -190,7 +192,7 @@ Source: `results/exp2_turnover.csv`, `exp2_summary.csv`,
 | LS historical short exposure (mean) | ~0.91% | 0.0% | not reproduced |
 | LS conditional short exposure (mean) | ~0% (effectively long-only) | 0.0% | **reproduced** |
 
-The annualized implementation turnover (43.05%) falls squarely in the
+The annualized implementation turnover (43.98%) falls squarely in the
 paper's reported 41-46% range despite the much shorter executed sample,
 because turnover is a per-session average rather than a compounding
 quantity and is therefore comparatively stable under sample-size reduction.
@@ -200,14 +202,14 @@ than the paper by more than the 50% materiality threshold; the identified
 cause is that the baseline target-adjustment cap allows a maximum one-way
 change of `delta = 1/(30*252) ≈ 0.0132%` per session, so building up any
 material short position or a turnover rate above the per-session cap floor
-requires many more rebalancing sessions than the 80 executed here (946 in
+requires many more rebalancing sessions than the 220 executed here (946 in
 the paper) — the cap is the method-defining parameter (left unchanged) but
-its cumulative effect over a horizon is necessarily smaller at N=80.
+its cumulative effect over a horizon is necessarily smaller at N=220.
 
 MC95 concentration (`exp2_mc95_concentration.csv`): historical and
 conditional MC95 portfolios hold similar direct BND/BYLD exposure (BND
-≈3.3% in both; BYLD ≈3.3% in both) and similar Herfindahl concentration
-(≈0.033 in both), and both are at 100% gross exposure with 0% short
+3.86-4.60%; BYLD ≈3.33% in both) and similar Herfindahl concentration
+(≈0.0336 in both), and both are at 100% gross exposure with 0% short
 exposure under LO and LS bounds, matching the paper's statement that "MC95
 portfolios should show similar ETF-level concentration and direct BND/BYLD
 holdings across methods." Verdict: **reproduced**.
@@ -219,13 +221,13 @@ holdings across methods." Verdict: **reproduced**.
 Source: `results/exp3_bootstrap_tests.csv`, `exp3_summary.csv`. Executed
 configuration: B_RUN=500 stationary-bootstrap resamples (paper: 5,000),
 seed 12345, block lengths {10, 20, 40}, on the Experiment 1/2 baseline run
-(80 out-of-sample sessions, paper: 946).
+(220 out-of-sample sessions, paper: 946).
 
 | Block length | n CIs excluding zero | Holm rejections | BH rejections | n Δ negative (of 48) |
 |---|---|---|---|---|
 | 10 | 0 | 0 | 0 | 16 |
 | 20 | 0 | 0 | 0 | 16 |
-| 40 | 4 | 0 | 0 | 16 |
+| 40 | 0 | 0 | 0 | 16 |
 
 Paper's expected outcome: ~5, ~6, ~8 CIs excluding zero at block lengths 10,
 20, 40, and **0 Holm/BH rejections at every block length**. This run
@@ -233,13 +235,14 @@ reproduces the central qualitative finding — no paired difference survives
 Holm or Benjamini-Hochberg correction at any block length — exactly (0/48 at
 every block length, matching the paper's "NO paired comparison should remain
 significant"). The raw (unadjusted) count of CIs excluding zero is lower
-than the paper's (0, 0, 4 vs. ~5, ~6, ~8) and the count of negative Δ (16/48)
+than the paper's (0, 0, 0 vs. ~5, ~6, ~8) and the count of negative Δ (16/48)
 is also lower than the paper's implied majority, both attributable to the
-much shorter 80-session (vs. 946-session) evaluation window reducing
+much shorter 220-session (vs. 946-session) evaluation window reducing
 bootstrap power to detect any nonzero difference. Verdict: **reproduced**
 (zero adjusted rejections at every block length); **partially reproduced**
 (raw CI-exclusion counts, lower than the paper's but directionally
-consistent — a minority of raw tests reject, none after correction).
+consistent — none of the raw tests reject at this sample size, and none
+after correction).
 
 ---
 
@@ -247,40 +250,41 @@ consistent — a minority of raw tests reject, none after correction).
 
 Source: `results/exp4_tail_indices.csv`, `exp4_summary_7pct.csv`,
 `exp4_log_survival_fits.png`. Portfolios: Historical/Dynamic LS TC99,
-Historical/Dynamic LS MC99, BHP, on the 80-session baseline run (paper:
+Historical/Dynamic LS MC99, BHP, on the 220-session baseline run (paper:
 946 sessions; at the 7% threshold the paper uses 67 observations per tail,
-this run uses 6).
+this run uses 16).
 
 | Portfolio | Loss OLS α (7%) | Loss Hill α (7%) | Gain OLS α (7%) | Gain Hill α (7%) |
 |---|---|---|---|---|
-| Historical LS TC99 | 5.23 | 4.67 | 2.38 | 2.89 |
-| Dynamic LS TC99 | 5.31 | 4.56 | 2.40 | 2.85 |
-| Historical LS MC99 | 5.23 | 4.67 | 2.38 | 2.89 |
-| Dynamic LS MC99 | 5.31 | 4.56 | 2.40 | 2.85 |
-| BHP | 5.43 | 4.39 | 2.47 | 2.90 |
+| Historical LS TC99 | 3.56 | 3.58 | 2.50 | 3.52 |
+| Dynamic LS TC99 | 3.63 | 3.69 | 2.49 | 3.44 |
+| Historical LS MC99 | 3.56 | 3.58 | 2.50 | 3.52 |
+| Dynamic LS MC99 | 3.63 | 3.69 | 2.49 | 3.44 |
+| BHP | 3.58 | 3.48 | 2.47 | 3.41 |
 
 Paper's expected outcome: OLS tail indices ≈2.8-3.0 for both loss and gain
 tails, Hill ≈2.9-3.6, 95% OLS CI ≈[2.07, 4.70] for Historical LS TC99 loss,
 historical/conditional loss tail indices very close (2.81 vs. 2.89). This
-run reproduces the historical-vs-conditional closeness (loss OLS α 5.23 vs.
-5.31, a 1.5% difference) and the qualitative BHP-vs-optimized-portfolio
-similarity, but the loss-tail magnitude itself (5.2-5.4) is materially above
-the paper's reported ≈2.8-3.0 (>50% higher), while the gain-tail magnitude
-(2.38-2.47) is within the paper's reported range. The identified cause is
-the tail-threshold observation count: at the 7% threshold this run has only
-6 observations per tail (vs. the paper's 67), and both OLS log-survival
-regression and the Hill estimator have estimator variance that scales
-roughly as 1/sqrt(k) in the number of tail observations k, so an estimate
-from 6 points is far noisier (and, for the heavier-tailed loss side with a
-small sample, biased toward larger α / thinner apparent tails) than one from
-67. The reported confidence intervals in `exp4_tail_indices.csv` are
-correspondingly very wide (e.g., Historical LS TC99 loss 7%: [2.44, 22.9]),
-confirming the paper's own caution that the estimates do "NOT establish a
-common Pareto law or reliable predictive tail calibration." Verdict:
-**partially reproduced** (historical-vs-conditional closeness and gain-tail
-magnitude reproduced; loss-tail magnitude not reproduced, identified cause:
-small-sample tail-estimator instability from the reduced 80-session
-executed window).
+run reproduces the historical-vs-conditional closeness (loss OLS α 3.56 vs.
+3.63, a 2% difference) and the qualitative BHP-vs-optimized-portfolio
+similarity, and the Hill estimates (3.48-3.69) fall inside the paper's
+reported 2.9-3.6 range at its upper edge. The OLS loss-tail magnitude itself
+(3.56-3.63) is close to but still above the paper's reported ≈2.8-3.0 (about
+20-30% higher, below the 50% materiality threshold), while the OLS gain-tail
+magnitude (2.47-2.50) is within the paper's reported range. The identified
+cause of the remaining gap is the tail-threshold observation count: at the
+7% threshold this run has only 16 observations per tail (vs. the paper's
+67), and both OLS log-survival regression and the Hill estimator have
+estimator variance that scales roughly as 1/sqrt(k) in the number of tail
+observations k, so an estimate from 16 points is still noticeably noisier
+than one from 67. The reported confidence intervals in
+`exp4_tail_indices.csv` are correspondingly wide (e.g., Historical LS TC99
+loss 7%: [2.37, 6.12]), confirming the paper's own caution that the
+estimates do "NOT establish a common Pareto law or reliable predictive tail
+calibration." Verdict: **partially reproduced** (historical-vs-conditional
+closeness, gain-tail magnitude, and Hill-estimate range reproduced; OLS
+loss-tail magnitude not fully reproduced, identified cause: small-sample
+tail-estimator noise from the reduced 220-session executed window).
 
 ---
 
