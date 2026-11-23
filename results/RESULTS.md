@@ -366,7 +366,7 @@ sub-experiment's relative ordering.
 
 Every "partially reproduced" or "not reproduced" verdict above has an
 identified cause tied to the compute-time reduction in out-of-sample
-session count (80, 25, or 18 executed sessions vs. the paper's 946),
+session count (220, 25, or 18 executed sessions vs. the paper's 946),
 confirmed by checking the affected quantity's scaling (estimator variance in
 1/sqrt(k) for tail indices, compounding exponent 252/N for annualized
 returns, cumulative cap-constrained drift for turnover/exposure) against the
