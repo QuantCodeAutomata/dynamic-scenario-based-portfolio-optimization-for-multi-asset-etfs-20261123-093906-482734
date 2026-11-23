@@ -1,9 +1,8 @@
 # Dynamic Scenario-Based Portfolio Optimization for Multi-Asset ETFs
 
-Replication of "Dynamic Scenario-Based Portfolio Optimization for Multi-Asset
-ETFs". Paper metadata (title, authors, sections) is as retrieved from the
-indexed manuscript; the exact author list and venue are reproduced verbatim in
-`results/RESULTS.md`.
+Replication of Mensah, A. A., Jaffri, A. M., Appiah, N., Lindquist, W. B.,
+Rachev, S. T., and Fabozzi, F. J. (2026), *Dynamic Scenario-Based Portfolio
+Optimization for Multi-Asset ETFs*, arXiv:2611.16540v2 [q-fin.RM].
 
 The paper builds 24 baseline portfolios for 30 U.S.-listed ETFs by combining
 two return-input methods (a historical moving-window empirical distribution

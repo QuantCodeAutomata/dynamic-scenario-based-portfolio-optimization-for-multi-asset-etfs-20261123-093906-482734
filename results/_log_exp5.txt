@@ -1,0 +1,1036 @@
+nohup: ignoring input
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09762. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0872. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09761. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08719. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09702. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.087. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09664. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0878. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09665. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08772. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09674. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08763. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09645. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08765. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09603. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08718. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0958. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08718. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09576. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08719. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0957. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08711. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09623. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0871. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09626. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08703. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09614. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08702. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0959. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08683. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0959. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08673. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09626. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08671. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09645. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08671. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09571. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08676. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09571. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08677. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09666. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08668. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09701. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0866. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.097. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08662. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09722. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.08661. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.09721. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+/usr/local/lib/python3.12/site-packages/arch/univariate/base.py:694: DataScaleWarning: y is poorly scaled, which may affect convergence of the optimizer when
+estimating the model parameters. The scale of y is 0.0866. Parameter
+estimation work better when this value is between 1 and 1000. The recommended
+rescaling is 10 * y.
+
+This warning can be disabled by either rescaling y before initializing the
+model or by setting rescale=False.
+
+  self._check_scale(resids)
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.12/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+Experiment 5: full=False
+  backtest progress: 5/25 decision dates
+  backtest progress: 10/25 decision dates
+  backtest progress: 15/25 decision dates
+  backtest progress: 20/25 decision dates
+  backtest progress: 25/25 decision dates
+baseline eval dates: 25, relaxed eval dates: 25
+     method bound  implementation_turnover_annualized_baseline  implementation_turnover_annualized_relaxed  modeled_cost_annualized_baseline  modeled_cost_annualized_relaxed  mean_gross_exposure_baseline  mean_gross_exposure_relaxed
+ historical    LO                                     0.363320                                    2.764017                          0.000363                         0.002764                           1.0                     1.000000
+conditional    LO                                     0.360335                                    2.795068                          0.000360                         0.002795                           1.0                     1.000000
+ historical    LS                                     0.363320                                    2.792275                          0.000363                         0.002792                           1.0                     1.083644
+conditional    LS                                     0.360340                                    2.844388                          0.000360                         0.002844                           1.0                     1.070933
+     method bound objective  delta_gross_pp  delta_net_pp
+ historical    LO        MV        2.767644      2.590382
+conditional    LO        MV        1.054167      0.879902
+ historical    LO        TV        4.648653      4.463613
+conditional    LO        TV        1.131715      0.957219
+ historical    LO      MC95        3.731061      3.552479
+conditional    LO      MC95        1.416870      1.241783
+ historical    LO      TC95        4.342993      4.161126
+conditional    LO      TC95        1.425518      1.250169
+ historical    LO      MC99        5.906221      5.721281
+conditional    LO      MC99        2.983706      2.804063
+ historical    LO      TC99        6.552215      6.363986
+conditional    LO      TC99        2.600210      2.422245
+ historical    LS        MV        3.869238      3.686677
+conditional    LS        MV        3.120771      2.936965
+ historical    LS        TV        4.923956      4.736395
+conditional    LS        TV        3.086490      2.903297
+ historical    LS      MC95        3.276752      3.097302
+conditional    LS      MC95        2.589461      2.407644
+ historical    LS      TC95        3.488559      3.306620
+conditional    LS      TC95        2.525421      2.344339
+ historical    LS      MC99        6.679115      6.490037
+conditional    LS      MC99        3.110000      2.927388
+ historical    LS      TC99        6.277253      6.085660
+conditional    LS      TC99        2.668452      2.487297

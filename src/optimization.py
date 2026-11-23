@@ -24,11 +24,13 @@ def _solve_qp_or_lp(problem: cp.Problem, is_qp: bool) -> None:
     # CVAR_TOLERANCE); SCS is the fallback when CLARABEL fails to converge.
     tol = MV_TOLERANCE if is_qp else CVAR_TOLERANCE
     max_iter = 20000 if is_qp else CVAR_MAX_ITER
+    status = None
     try:
         problem.solve(solver=cp.CLARABEL, tol_gap_abs=tol, tol_gap_rel=tol, max_iter=max_iter)
+        status = problem.status
     except cp.error.SolverError:
-        problem.status = "error"
-    if problem.status not in ("optimal", "optimal_inaccurate"):
+        status = None
+    if status not in ("optimal", "optimal_inaccurate"):
         problem.solve(solver=cp.SCS, max_iters=20000)
 
 
