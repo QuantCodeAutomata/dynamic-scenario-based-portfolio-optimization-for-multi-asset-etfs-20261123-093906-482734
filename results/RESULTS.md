@@ -132,7 +132,7 @@ FRONTIER_CANDIDATES_RUN=10, moving-window diagnostics over 59 sessions.
 | Metric (paper comparison) | Paper (Section 4) | This run | Verdict |
 |---|---|---|---|
 | Share of comparisons where historical ratio is higher | "most" (qualitative; reported paired-Δ in Exp. 3 mostly negative) | 0.333 (16/48) | partially reproduced |
-| BHP Sharpe (daily) | not individually tabulated in paper_pipeline | 0.0507 | not reproduced (no paper value to compare) |
+| BHP Sharpe (daily) | not individually tabulated in the paper | 0.0507 | not reproduced (no paper value to compare) |
 
 The paper's qualitative claim is that historical portfolios have higher
 *observed* reward-risk ratios "in most comparisons". With 220 executed

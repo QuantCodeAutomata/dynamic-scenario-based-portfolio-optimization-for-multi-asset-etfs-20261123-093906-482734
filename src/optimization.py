@@ -2,14 +2,13 @@
 and tangent-CVaR, all under budget, position-bound, and target-adjustment-cap
 constraints (paper Section 3).
 
-Library usage (Context7-checked): `cvxpy` is used as the convex-optimization
-DSL for every quadratic (mean-variance) and linear (Rockafellar-Uryasev CVaR)
-program, exactly as named in the paper's implementation notes. `pyportfolioopt`
-and `skfolio` were also checked; neither exposes the paper's specific
-constraint (a turnover cap expressed as (1/2)*||w - w_prev||_1 <= delta
-together with a hard position-bound box and, for the CVaR objectives, an
-explicit Rockafellar-Uryasev scenario-based linear program), so the objectives
-below are assembled directly in cvxpy (paper Section 3, Eqs. for MV/CVaR).
+Library usage: `cvxpy` is used as the convex-optimization DSL for every
+quadratic (mean-variance) and linear (Rockafellar-Uryasev CVaR) program.
+`pyportfolioopt` and `skfolio` do not expose the paper's specific constraint
+(a turnover cap expressed as (1/2)*||w - w_prev||_1 <= delta together with a
+hard position-bound box and, for the CVaR objectives, an explicit
+Rockafellar-Uryasev scenario-based linear program), so the objectives below
+are assembled directly in cvxpy (paper Section 3, Eqs. for MV/CVaR).
 """
 
 import numpy as np

@@ -2,9 +2,8 @@
 reward-risk-ratio differences, with Holm and Benjamini-Hochberg multiple
 testing corrections (paper Section 5/Experiment 3).
 
-Library usage (Context7-checked): `arch.bootstrap.StationaryBootstrap`
-implements the Politis and Romano (1994) stationary bootstrap exactly as
-named in the paper's implementation notes; `statsmodels.stats.multitest`
+Library usage: `arch.bootstrap.StationaryBootstrap` implements the Politis
+and Romano (1994) stationary bootstrap; `statsmodels.stats.multitest`
 implements the Holm (1979) and Benjamini-Hochberg (1995) adjustments.
 """
 

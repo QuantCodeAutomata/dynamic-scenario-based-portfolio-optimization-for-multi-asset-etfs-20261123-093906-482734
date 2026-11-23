@@ -2,10 +2,10 @@
 regression and the Hill estimator, with stationary-bootstrap confidence
 intervals on the OLS tail index (paper Section 6/Experiment 4).
 
-Library usage (Context7-checked): `arch.bootstrap.StationaryBootstrap` for
-the Politis-Romano resampling used to build the OLS confidence interval;
-`numpy.polyfit` for the OLS log-survival regression (a one-feature OLS has no
-library-specific estimator beyond ordinary least squares).
+Library usage: `arch.bootstrap.StationaryBootstrap` for the Politis-Romano
+resampling used to build the OLS confidence interval; `numpy.polyfit` for the
+OLS log-survival regression (a one-feature OLS has no library-specific
+estimator beyond ordinary least squares).
 """
 
 import numpy as np

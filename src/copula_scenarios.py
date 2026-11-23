@@ -2,9 +2,9 @@
 transforms, a multivariate Student-t copula, and one-step-ahead scenario
 return generation (paper Section 2).
 
-Library usage (Context7-checked):
+Library usage:
 - `arch.arch_model` (package `arch`) fits the ARMA(1,1)-GARCH(1,1) model with
-  Student-t innovations exactly as named in the paper's implementation notes.
+  Student-t innovations (paper Section 2).
 - `scipy.stats.gaussian_kde` builds the kernel CDF/inverse-CDF of the
   standardized residuals (paper's MATLAB `ksdensity` equivalent).
 - The multivariate Student-t copula itself (fit degrees of freedom and
@@ -15,7 +15,7 @@ Library usage (Context7-checked):
   is implemented directly from `scipy.stats.multivariate_t` and a profile
   likelihood over the degrees-of-freedom parameter, following the
   correlation-matrix/degrees-of-freedom factorization used by MATLAB's
-  `copulafit('t', ...)` (paper Section 2, implementation notes).
+  `copulafit('t', ...)` (paper Section 2).
 """
 
 from dataclasses import dataclass
