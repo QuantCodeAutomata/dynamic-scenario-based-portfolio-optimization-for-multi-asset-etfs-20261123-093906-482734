@@ -84,6 +84,8 @@ def _cvar_lp(
         constraints.append(target_mean @ w >= target_return)
     problem = cp.Problem(cp.Minimize(cvar), constraints)
     _solve_qp_or_lp(problem, is_qp=False)
+    if w.value is None:
+        return None, None
     return _apply_cap_safety(w.value, w_prev, delta), float(cvar.value)
 
 

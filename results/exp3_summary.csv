@@ -1,0 +1,4 @@
+block_length,n_tests,n_ci_exclude_zero,n_holm_rejections,n_bh_rejections,n_delta_negative
+10,48,0,0,0,16
+20,48,0,0,0,16
+40,48,4,0,0,16

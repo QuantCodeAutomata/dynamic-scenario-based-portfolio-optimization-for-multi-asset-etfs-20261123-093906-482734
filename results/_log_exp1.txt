@@ -1,0 +1,30 @@
+nohup: ignoring input
+Experiment 1: n_eval=80, moving window=40, full=False
+     method bound objective    Sharpe      SS2   Rachev      STAR
+ historical    LO        MV -0.015190 0.567523 1.063718 -0.007799
+conditional    LO        MV -0.016638 0.566542 1.059109 -0.008533
+ historical    LO        TV -0.015222 0.567492 1.063617 -0.007815
+conditional    LO        TV -0.016632 0.566546 1.059123 -0.008530
+ historical    LO      MC95 -0.016354 0.566541 1.058346 -0.008390
+conditional    LO      MC95 -0.016247 0.566957 1.059429 -0.008333
+ historical    LO      TC95 -0.016354 0.566541 1.058346 -0.008390
+conditional    LO      TC95 -0.016247 0.566956 1.059429 -0.008333
+ historical    LO      MC99 -0.016371 0.566493 1.059307 -0.008399
+conditional    LO      MC99 -0.016051 0.567242 1.059901 -0.008235
+ historical    LO      TC99 -0.016370 0.566494 1.059309 -0.008398
+conditional    LO      TC99 -0.016050 0.567243 1.059902 -0.008235
+ historical    LS        MV -0.015408 0.567308 1.063174 -0.007909
+conditional    LS        MV -0.016657 0.566498 1.059185 -0.008543
+ historical    LS        TV -0.015116 0.567617 1.063764 -0.007761
+conditional    LS        TV -0.016630 0.566538 1.059109 -0.008529
+ historical    LS      MC95 -0.016354 0.566541 1.058346 -0.008390
+conditional    LS      MC95 -0.016247 0.566957 1.059429 -0.008333
+ historical    LS      TC95 -0.016354 0.566541 1.058346 -0.008390
+conditional    LS      TC95 -0.016247 0.566957 1.059429 -0.008333
+ historical    LS      MC99 -0.016371 0.566493 1.059308 -0.008399
+conditional    LS      MC99 -0.016051 0.567242 1.059901 -0.008235
+ historical    LS      TC99 -0.016370 0.566494 1.059310 -0.008398
+conditional    LS      TC99 -0.016050 0.567242 1.059901 -0.008235
+        BHP     -         - -0.017645 0.565681 1.059323 -0.009074
+ n_comparisons  n_historical_higher  share_historical_higher
+            48                   16                 0.333333

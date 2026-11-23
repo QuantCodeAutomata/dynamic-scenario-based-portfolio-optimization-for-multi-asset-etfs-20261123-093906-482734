@@ -6,18 +6,27 @@ produced by calling :func:`run_backtest` with different arguments, never by a
 private per-experiment loop.
 """
 
+import pickle
 from dataclasses import dataclass, field
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
 from src.config import (
     BOUNDS_LO, BOUNDS_LS, OBJECTIVES, CVAR_ALPHA, W0, N_ASSETS,
+    ETF_TICKERS, SAMPLE_START, SAMPLE_END_EXCLUSIVE, IDENTITY_DATE,
+    W_PAPER, DELTA_BASELINE, DELTA_RELAXED, SIMULATION_SEED_PAPER,
+    SIMULATION_SEED_ALT,
+    S_PAPER, S_RUN, FRONTIER_CANDIDATES_PAPER, FRONTIER_CANDIDATES_RUN,
+    N_EVAL_PAPER, N_EVAL_RUN, N_EVAL_RUN_EXP5, N_EVAL_RUN_EXP6,
 )
 from src.copula_scenarios import build_conditional_scenarios
 from src.optimization import (
     min_variance, min_cvar, tangent_mean_variance, tangent_cvar, equal_weight,
 )
+
+CACHE_DIR = Path(__file__).resolve().parent.parent / "data" / "cache"
 
 BOUND_MAP = {"LO": BOUNDS_LO, "LS": BOUNDS_LS}
 TANGENT_OBJECTIVES = {"TV", "TC95", "TC99"}
@@ -153,3 +162,165 @@ def run_backtest(
         eval_dates=eval_dates,
         decision_dates=decision_dates,
     )
+
+
+def load_price_and_returns():
+    """The shared price panel and return/risk-free series used by every
+    experiment (paper Section 2, data preparation)."""
+    from src.returns import build_price_panel, arithmetic_returns, build_risk_free_returns
+
+    prices, meta, before = build_price_panel(ETF_TICKERS, SAMPLE_START, SAMPLE_END_EXCLUSIVE, IDENTITY_DATE)
+    returns = arithmetic_returns(prices)
+    risk_free = build_risk_free_returns(returns.index, SAMPLE_START, SAMPLE_END_EXCLUSIVE)
+    meta["price_rows_before_dropna"] = before
+    meta["price_rows_after_dropna"] = len(prices)
+    return prices, returns, risk_free, meta
+
+
+def slice_result(result: BacktestResult, n: int) -> BacktestResult:
+    """The last ``n`` decision/evaluation dates of ``result`` (paper Section
+    6/Experiment 6: runs with different W, S or seed share the common tail
+    of evaluation dates of a longer baseline run, since ``run_backtest``'s
+    decision positions depend only on the panel length and ``n_eval``)."""
+    eval_dates = result.eval_dates[-n:]
+    decision_dates = result.decision_dates[-n:]
+    weights = {k: v.iloc[-n:] for k, v in result.weights.items()}
+    returns = {k: v.iloc[-n:] for k, v in result.returns.items()}
+    bhp = result.bhp_returns.loc[eval_dates] if result.bhp_returns is not None else None
+    return BacktestResult(
+        weights=weights, returns=returns, bhp_returns=bhp,
+        risk_free=result.risk_free.loc[eval_dates], eval_dates=eval_dates,
+        decision_dates=decision_dates,
+    )
+
+
+def _cached_backtest(cache_name: str, use_cache: bool, **kwargs) -> BacktestResult:
+    cache_path = CACHE_DIR / f"{cache_name}.pkl"
+    if use_cache and cache_path.exists():
+        with open(cache_path, "rb") as fh:
+            return pickle.load(fh)
+    prices, returns, risk_free, _ = load_price_and_returns()
+    result = run_backtest(returns=returns, risk_free=risk_free, price_panel=prices, **kwargs)
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    with open(cache_path, "wb") as fh:
+        pickle.dump(result, fh)
+    return result
+
+
+def get_cap_sensitivity_result(
+    relaxed: bool, full: bool = False, use_cache: bool = True, progress_every: int = 0
+) -> BacktestResult:
+    """Experiment 5: baseline vs. relaxed (1%) target-adjustment cap, all 24
+    portfolios, common evaluation dates (paper Section 6)."""
+    n_eval = N_EVAL_PAPER if full else N_EVAL_RUN_EXP5
+    delta = DELTA_RELAXED if relaxed else DELTA_BASELINE
+    if not relaxed:
+        base = get_baseline_result(full=full, use_cache=use_cache)
+        if len(base.eval_dates) >= n_eval:
+            return slice_result(base, n_eval)
+    S = S_PAPER if full else S_RUN
+    frontier = FRONTIER_CANDIDATES_PAPER if full else FRONTIER_CANDIDATES_RUN
+    tag = f"exp5_{'relaxed' if relaxed else 'baseline'}_{'full' if full else 'run'}"
+    return _cached_backtest(
+        tag, use_cache, W=W_PAPER, S=S, n_eval=n_eval, delta=delta,
+        seed=SIMULATION_SEED_PAPER, frontier_candidates=frontier, progress_every=progress_every,
+    )
+
+
+def get_scenario_count_result(
+    S: int, full: bool = False, use_cache: bool = True, progress_every: int = 0
+) -> BacktestResult:
+    """Experiment 6a: conditional-method sensitivity to the scenario count S
+    (paper Section 6). The historical method does not depend on S, so only
+    the conditional method is (re)computed; historical weights/returns are
+    reused from the baseline run's common evaluation-date tail."""
+    n_eval = N_EVAL_PAPER if full else N_EVAL_RUN_EXP6
+    default_S = S_PAPER if full else S_RUN
+    base = get_baseline_result(full=full, use_cache=use_cache)
+    base_tail = slice_result(base, n_eval) if len(base.eval_dates) >= n_eval else None
+    if S == default_S and base_tail is not None:
+        return base_tail
+    frontier = FRONTIER_CANDIDATES_PAPER if full else FRONTIER_CANDIDATES_RUN
+    tag = f"exp6_scen_{S}_{'full' if full else 'run'}"
+    cond = _cached_backtest(
+        tag, use_cache, W=W_PAPER, S=S, n_eval=n_eval, delta=DELTA_BASELINE,
+        seed=SIMULATION_SEED_PAPER, frontier_candidates=frontier,
+        methods=("conditional",), progress_every=progress_every,
+    )
+    if base_tail is not None:
+        cond.weights.update({k: v for k, v in base_tail.weights.items() if k[0] == "historical"})
+        cond.returns.update({k: v for k, v in base_tail.returns.items() if k[0] == "historical"})
+    return cond
+
+
+def get_seed_result(
+    seed: int, full: bool = False, use_cache: bool = True, progress_every: int = 0
+) -> BacktestResult:
+    """Experiment 6b: conditional-method sensitivity to the simulation random
+    seed (paper Section 6); historical weights/returns are seed-invariant and
+    reused from the baseline run."""
+    n_eval = N_EVAL_PAPER if full else N_EVAL_RUN_EXP6
+    base = get_baseline_result(full=full, use_cache=use_cache)
+    base_tail = slice_result(base, n_eval) if len(base.eval_dates) >= n_eval else None
+    if seed == SIMULATION_SEED_PAPER and base_tail is not None:
+        return base_tail
+    S = S_PAPER if full else S_RUN
+    frontier = FRONTIER_CANDIDATES_PAPER if full else FRONTIER_CANDIDATES_RUN
+    tag = f"exp6_seed_{seed}_{'full' if full else 'run'}"
+    cond = _cached_backtest(
+        tag, use_cache, W=W_PAPER, S=S, n_eval=n_eval, delta=DELTA_BASELINE,
+        seed=seed, frontier_candidates=frontier, methods=("conditional",),
+        progress_every=progress_every,
+    )
+    if base_tail is not None:
+        cond.weights.update({k: v for k, v in base_tail.weights.items() if k[0] == "historical"})
+        cond.returns.update({k: v for k, v in base_tail.returns.items() if k[0] == "historical"})
+    return cond
+
+
+def get_window_length_result(
+    W: int, full: bool = False, use_cache: bool = True, progress_every: int = 0
+) -> BacktestResult:
+    """Experiment 6c: both methods, common evaluation dates across window
+    lengths W in {756, 1008, 1260} (paper Section 6). ``run_backtest``'s
+    decision positions depend only on the panel length T and ``n_eval``, not
+    on W, so every window length automatically shares the same evaluation
+    dates as long as the panel has at least ``W + n_eval`` rows."""
+    n_eval = N_EVAL_PAPER if full else N_EVAL_RUN_EXP6
+    if W == W_PAPER:
+        base = get_baseline_result(full=full, use_cache=use_cache)
+        if len(base.eval_dates) >= n_eval:
+            return slice_result(base, n_eval)
+    S = S_PAPER if full else S_RUN
+    frontier = FRONTIER_CANDIDATES_PAPER if full else FRONTIER_CANDIDATES_RUN
+    tag = f"exp6_window_{W}_{'full' if full else 'run'}"
+    return _cached_backtest(
+        tag, use_cache, W=W, S=S, n_eval=n_eval, delta=DELTA_BASELINE,
+        seed=SIMULATION_SEED_PAPER, frontier_candidates=frontier, progress_every=progress_every,
+    )
+
+
+def get_baseline_result(full: bool = False, use_cache: bool = True, progress_every: int = 10) -> BacktestResult:
+    """Run (or load from cache) the baseline 24-portfolio backtest shared by
+    Experiments 1-4: paper configuration when ``full`` is True, otherwise the
+    reduced executed configuration described in ``results/RESULTS.md``.
+    """
+    n_eval = N_EVAL_PAPER if full else N_EVAL_RUN
+    S = S_PAPER if full else S_RUN
+    frontier = FRONTIER_CANDIDATES_PAPER if full else FRONTIER_CANDIDATES_RUN
+    tag = "full" if full else "run"
+    cache_path = CACHE_DIR / f"baseline_{tag}.pkl"
+    if use_cache and cache_path.exists():
+        with open(cache_path, "rb") as fh:
+            return pickle.load(fh)
+
+    prices, returns, risk_free, _ = load_price_and_returns()
+    result = run_backtest(
+        returns=returns, risk_free=risk_free, W=W_PAPER, S=S, n_eval=n_eval,
+        delta=DELTA_BASELINE, seed=SIMULATION_SEED_PAPER, frontier_candidates=frontier,
+        price_panel=prices, progress_every=progress_every,
+    )
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    with open(cache_path, "wb") as fh:
+        pickle.dump(result, fh)
+    return result

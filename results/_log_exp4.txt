@@ -1,0 +1,54 @@
+nohup: ignoring input
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+/workspace/project/src/tail.py:47: RankWarning: Polyfit may be poorly conditioned
+  slope, _intercept = np.polyfit(np.log(top), np.log(survival), 1)
+Experiment 4: n_boot=100, thresholds=[0.05, 0.07, 0.1], full=False
+         portfolio  threshold  n_total  loss_ols_alpha  loss_hill_alpha  loss_n_obs  gain_ols_alpha  gain_hill_alpha  gain_n_obs  loss_ols_ci_lower  loss_ols_ci_upper  gain_ols_ci_lower  gain_ols_ci_upper
+Historical LS TC99       0.05       80        5.877395         5.984706           4        2.343898         4.266138           4           3.332317          34.122277           1.296004           7.048564
+Historical LS TC99       0.07       80        5.225358         4.669744           6        2.384144         2.889781           6           2.440149          22.944195           1.516034           6.864404
+Historical LS TC99       0.10       80        4.567168         3.242326           8        2.454352         3.360521           8           1.872548           6.943064           1.705541           5.591476
+   Dynamic LS TC99       0.05       80        6.071052         6.044509           4        2.345640         4.212588           4           3.326238          30.677521           1.303813           7.392244
+   Dynamic LS TC99       0.07       80        5.310633         4.560536           6        2.398993         2.849906           6           2.404533          22.866695           1.517675           7.169115
+   Dynamic LS TC99       0.10       80        4.568853         3.203393           8        2.458850         3.359411           8           1.858610           7.169772           1.705801           5.646328
+Historical LS MC99       0.05       80        5.877348         5.984661           4        2.343896         4.266127           4           3.332335          34.122246           1.296000           7.048519
+Historical LS MC99       0.07       80        5.225345         4.669789           6        2.384135         2.889798           6           2.440122          22.941991           1.516032           6.864405
+Historical LS MC99       0.10       80        4.567184         3.242348           8        2.454349         3.360530           8           1.872542           6.943018           1.705539           5.591450
+   Dynamic LS MC99       0.05       80        6.070815         6.044628           4        2.345611         4.212618           4           3.326238          30.679569           1.303806           7.392332
+   Dynamic LS MC99       0.07       80        5.310623         4.560553           6        2.398987         2.849742           6           2.404530          22.868570           1.517659           7.168980
+   Dynamic LS MC99       0.10       80        4.568866         3.203403           8        2.458824         3.359468           8           1.858607           7.169479           1.705789           5.646332
+               BHP       0.05       80        6.086164         5.849242           4        2.404031         4.150772           4           3.340752          51.055521           1.339254           8.292347
+               BHP       0.07       80        5.431510         4.385872           6        2.467509         2.899434           6           2.470050          26.083940           1.550379           7.317369
+               BHP       0.10       80        4.572847         3.349622           8        2.506052         3.346956           8           1.905012           7.186973           1.737551           5.755762
+         portfolio  loss_ols_alpha  loss_hill_alpha  gain_ols_alpha  gain_hill_alpha
+Historical LS TC99        5.225358         4.669744        2.384144         2.889781
+   Dynamic LS TC99        5.310633         4.560536        2.398993         2.849906
+Historical LS MC99        5.225345         4.669789        2.384135         2.889798
+   Dynamic LS MC99        5.310623         4.560553        2.398987         2.849742
+               BHP        5.431510         4.385872        2.467509         2.899434

@@ -26,7 +26,8 @@ def build_price_panel(
     default), matching the paper's Yahoo Finance auto_adjust=True convention
     (Section 2, data requirements).
     """
-    bars, meta = load_ohlcv(tickers, start_date, end_date, identity_date=identity_date)
+    inclusive_end = (pd.Timestamp(end_date) - pd.Timedelta(days=1)).strftime("%Y-%m-%d")
+    bars, meta = load_ohlcv(tickers, start_date, inclusive_end, identity_date=identity_date)
     wide = bars.pivot(index="date", columns="ticker", values="close").sort_index()
     wide = wide[tickers]
     before = len(wide)
